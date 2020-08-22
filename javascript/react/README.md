@@ -4,7 +4,7 @@ This guide is based on airbnb's [javascript react/jsx style guide](https://githu
 
 ## Naming
 
-1. In case you need to add a functionality to a event handler in a component add `handler` as prefix to the function name that will be overridden.
+1. In case you need to add a functionality to an event handler in a component add `handler` as prefix to the function name that will be overridden.
   ``` javascript
   function Brick({onClick}) {
 
@@ -32,10 +32,10 @@ This guide is based on airbnb's [javascript react/jsx style guide](https://githu
    
   ``` javascript
   // Bad
-  const Brick = ({ prop1, prop2, prop3, prop4 }) => <div>...
+  const Brick = ({ prop1, prop2, prop3, prop4 }) => <div>...</div>
 
   // Good
-  const Brick = ({ prop1, prop2, prop3 }) => <div>...
+  const Brick = ({ prop1, prop2, prop3 }) => <div>...</div>
   ``` 
 3. For four or more props, or if one of the props have a long name, destructure all of them inside the component and indent appropiately. 
    
@@ -59,7 +59,7 @@ This guide is based on airbnb's [javascript react/jsx style guide](https://githu
       ThisIsAReallyLongPropName, 
       prop2, 
       prop3, 
-      prop4
+      prop4,
     } = props;
   ```
 ## PropTypes
