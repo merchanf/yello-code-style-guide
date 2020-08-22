@@ -6,6 +6,17 @@ This guide is based on airbnb's [javascript react/jsx style guide](https://githu
 
 ### Event handling
 
-If you need to 
+In case you need to add a functionality to a event handler in a component add `handler` as prefix to the function name that will be overridden.
+
+    function Brick({onClick}) {
+
+      const myOwnOnClick = (e) => { // Bad
+      const handleOnClick = (e) => { // Good
+        e.preventDefault();
+        onClick();
+      }
+
+      return <button onClick={handleOnClick} ></button>
+    }
 
 
