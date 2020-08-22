@@ -16,10 +16,10 @@
 At the moment of a branch creations use the following conventions:
 
 ``` bash
-git branch [ticket number]-[brief description]
+git branch [ticket number]_[brief description]
 ```
 
-the name must be lowercase, and the spaces replaced by hypens.
+the characters must be lowercase (except when needed i.e. acronyms), and the spaces replaced by hypens.
 
 Examples.
 
@@ -28,9 +28,9 @@ Examples.
 git branch feature/oc-399/awesome-feature-creation
 
 # bad
-git branch feature-OC-399-AwesomeFeatureCreation
+git branch OC-399_AwesomeFeatureCreation
 
 # good
-git branch oc-399-awesome-feature-creation
+git branch OC-399_awesome-feature-creation
 ```
 

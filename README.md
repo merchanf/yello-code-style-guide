@@ -4,8 +4,8 @@ This repository will save all the guidelines that must be followed in order to h
 
 ## Guides 
 
-- Changelog
-- Git
-- Javascript
-- React and JSX
+- (Changelog)[https://github.com/merchanf/yello-code-style-guide/tree/master/changelog]
+- (Git)[https://github.com/merchanf/yello-code-style-guide/blob/master/Git]
+- (Javascript)[https://github.com/merchanf/yello-code-style-guide/tree/master/Javascript]
+- (React and JSX)[https://github.com/merchanf/yello-code-style-guide/tree/master/Javascript/React]
 - CSS and SCSS
