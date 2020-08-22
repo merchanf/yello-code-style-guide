@@ -22,7 +22,7 @@ This guide is based on airbnb's [javascript style guide](https://github.com/airb
           return param1 + param2 + param3 + param4;
         }
 
-2. functions must be short and concise as possible, having only a unique purpose. If you want to know when is a function too long, take this [stackOverflow answer](https://stackoverflow.com/a/475762/8407062) as a reference.
+2. functions must be short and concise as possible, having only a unique purpose. If you want to know when is a function too long, take this two [stackOverflow](https://stackoverflow.com/a/475762/8407062) [answers](https://stackoverflow.com/a/611322/8407062) as a reference.
 
 ## Naming
 Give as descriptive a name as possible, within reason. Do not worry about saving horizontal space as it is far more important to make your code immediately understandable by a new reader. Do not use abbreviations that are ambiguous or unfamiliar to readers outside your project, and do not abbreviate by deleting letters within a word.
