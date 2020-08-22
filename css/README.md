@@ -17,8 +17,6 @@ width: 8px;
    
 3. All the numbers and sizes must be multiples of 4. If there is any inconsistency when using multiple of four numbers, state it in a comment. (I.E. height inputs may vary across different browsers).
 
-
- 
 ## References
 
 * [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html#CSS_Style_Rules)
